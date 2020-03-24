@@ -47,6 +47,7 @@
                         <field id="enable">1</field>
                     </depends>
                     <label>Description on Facebook Description Tag</label>
+                    <comment>https://www.sualojavirtual.com.br/vertexnetfacebookfeed/.</comment>
                 </field>
             </group>
         </section>
