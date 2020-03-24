@@ -1,0 +1,27 @@
+{
+  "name": "vertexnet/facebookfeed",
+  "description": "Modulo Feed de produtos para Facebook desenvolvido para Plataforma Magento 2 ",
+  "homepage": "https://www.vertexnet.com.br",
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0",
+    "magento/framework": "~100.0"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Guilherme Karan Barbosa - Vertex Net",
+      "homepage": "https://www.vertexnet.com.b"
+    }
+  ],
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "VertexNet\\FacebookFeed\\": ""
+    }
+  }
+}
