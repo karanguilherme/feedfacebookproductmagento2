@@ -1,22 +1,22 @@
-# Google Shooping Feed for Magento 2
+# Facebook Shooping Feed para  Magento 2
 
 __Installation__
  
-  1. Create the directory (if it does not exist) that will hold the module contents
-    `$ mkdir -p VertexNet/FacebookFeed` on app/code directory
+  1. Criar o Diretorio conforme informo abaixo
+    `$ mkdir -p VertexNet/FacebookFeed` em  app/code 
 
-  2. Upload files to VertexNet/FacebookFeed files
+  2. Faça o Upload de Todos os Arquivos para a pasta VertexNet/FacebookFeed 
+ 
 
-  3. Execute Magento setup upgrade
+  3. Execute o Comando do Magento 2 em seu SSH
 
     $ bin/magento setup:upgrade
 
-  4. Clean cache and generated code
+  4. Limpe o Cache e generated
 
     $ bin/magento cache:clean
 
+Faça o Login, vá até Loja > Configurações > Vertex Net > Facebook Feed
 
-Login to Magento Admin and fill out info on Store > Configuration > Magento Fox > Google Shooping
-
-To access the feed : www.website.com/vertexnetfacebookfeed/
+Para acessar o feed para facebook segue exemplo, onde www.website.com é o endereço de sua loja virtual : www.website.com/vertexnetfacebookfeed/
     
